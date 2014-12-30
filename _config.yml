@@ -1,0 +1,41 @@
+# Title of your blog; shows in the header
+name: "rebekah kwon"
+
+# Description of your content (will only be used on Google Search)
+description: "Rebekah Kwon"
+
+# Your name. Will show in your footer + sidebar 
+author: "Rebekah Kwon"
+
+url: "http://rebekahkwon.github.io"
+baseurl: "/log"
+
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
+author-bio: "Developer. Currently a full-stack/front-end apprentice at Hack Reactor."
+
+# Social Accounts (mine, as placeholders)
+
+github: rebekahkwon
+#twitter: bekakwon
+#instagram: rebekah_kwon
+#dribbble: -
+
+# Google Analytics (you may want to changes these with yours or even delete :)
+
+ga_domain: rebekahkwon.github.io
+ga_tracking_id: UA-57898850-1
+
+# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
+
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+
+paginate: 10
+paginate_path: "/page/:num"
+
+# SCSS
+
+sass:
+  sass_dir: _scss
+  style: :compressed
