@@ -8,7 +8,7 @@ description: "Rebekah Kwon"
 author: "Rebekah Kwon"
 
 url: "http://rebekahkwon.github.io"
-baseurl: "/log"
+#baseurl: "/log"
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
 author-bio: "Developer. Currently a full-stack/front-end apprentice at Hack Reactor."
