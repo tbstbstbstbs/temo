@@ -1,8 +1,8 @@
 # Title of your blog; shows in the header
-name: "rebekah kwon"
+name: "arbec"
 
 # Description of your content (will only be used on Google Search)
-description: "Rebekah Kwon"
+description: "A developer of many hats."
 
 # Your name. Will show in your footer + sidebar 
 author: "Rebekah Kwon"
@@ -11,11 +11,11 @@ url: "http://rebekahkwon.github.io"
 #baseurl: "/log"
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
-author-bio: "Developer. Currently a full-stack/front-end apprentice at Hack Reactor."
+author-bio: "Developer. I like to wear many hats. Currently a full-stack/front-end apprentice at Hack Reactor."
 
 # Social Accounts (mine, as placeholders)
 
-github: rebekahkwon
+github: https://github.com/rebekahkwon
 #twitter: bekakwon
 #instagram: rebekah_kwon
 #dribbble: -
