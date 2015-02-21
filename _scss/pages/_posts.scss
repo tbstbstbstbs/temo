@@ -65,6 +65,7 @@
   ol {
     margin: $spacing-m 0;
     li {
+      margin-left: $spacing-l;
       margin-bottom: $spacing-xs;
     }
   }
@@ -78,7 +79,7 @@
     padding-left: $spacing-s;
     margin-top: $spacing-m;
     margin-bottom: $spacing-m;
-    margin-left: -$spacing-l;
+    /*margin-left: $spacing-xs;*/
     margin-right: 0;
     line-height: 165%;
 
