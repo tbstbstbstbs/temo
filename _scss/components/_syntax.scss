@@ -4,16 +4,19 @@
 .highlight { 
   border: 1px solid #cccccc;
   border-radius: 3px;
-  padding: $spacing-s $spacing-s;
   background-color: #1d1f21;
   margin: $spacing-m auto;
   overflow: auto;
   color: lighten($text-color, 60%);
 }
- 
+
+.highlight pre {
+  padding: $spacing-s $spacing-s;
+}
+
 code {
-  font-family: 'Courier', monospace;
-  font-size: 0.9em;
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 0.8em;
   line-height: 1.4;
 }
  
