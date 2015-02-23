@@ -5,17 +5,16 @@
   border: 1px solid #cccccc;
   border-radius: 3px;
   padding: $spacing-s $spacing-s;
-  background-color: #ffffff;
-  font-size: 80%;
+  background-color: #1d1f21;
   margin: $spacing-m auto;
-  overflow: scroll;
-  color: lighten($text-color, 30%);
+  overflow: auto;
+  color: lighten($text-color, 60%);
 }
  
 code {
   font-family: 'Courier', monospace;
-  font-size: 100%;
-  line-height: 1.5;
+  font-size: 90%;
+  line-height: 1.3;
 }
  
 .highlight .c { color: #586E75 } /* Comment */
@@ -60,7 +59,7 @@ code {
 .highlight .nf { color: #268BD2 } /* Name.Function */
 .highlight .nl { color: #93A1A1 } /* Name.Label */
 .highlight .nn { color: #93A1A1 } /* Name.Namespace */
-.highlight .nx { color: #555 } /* Name.Other */
+.highlight .nx { color: #CCC } /* Name.Other, modified for dark background */
 .highlight .py { color: #93A1A1 } /* Name.Property */
 .highlight .nt { color: #268BD2 } /* Name.Tag */
 .highlight .nv { color: #268BD2 } /* Name.Variable */
