@@ -13,7 +13,10 @@ title: Homepage
               itemprop="datePublished">
             {{ post.date | date_to_string }}
           </time>
-          <p itemprop="name headline">{{ post.title }}</p>
+          <div class="h-wrap">
+            <h1 itemprop="name headline">{{ post.title }}</h1>
+            <div class="excerpt">{{ post.excerpt }}</div>
+          </div>
         </div>
       </a>
     </li>

@@ -1,8 +1,8 @@
 // Solarized Light Pygments CSS / Jekyll
 // https://gist.github.com/edwardhotchkiss/2005058
 
-.highlight { 
-  border: 1px solid #cccccc;
+.highlight {
+  border: 1px solid #e0e0e0;
   border-radius: 3px;
   background-color: #1d1f21;
   margin: $spacing-m auto;
@@ -16,10 +16,10 @@
 
 code {
   font-family: 'Droid Sans Mono', monospace;
-  font-size: 0.8em;
-  line-height: 1.4;
+  font-size: 0.9em;
+  line-height: 1.3;
 }
- 
+
 .highlight .c { color: #586E75 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
@@ -62,7 +62,7 @@ code {
 .highlight .nf { color: #268BD2 } /* Name.Function */
 .highlight .nl { color: #93A1A1 } /* Name.Label */
 .highlight .nn { color: #93A1A1 } /* Name.Namespace */
-.highlight .nx { color: #CCC } /* Name.Other, modified for dark background */
+.highlight .nx { color: #CCCCCC } /* Name.Other, modified for dark background */
 .highlight .py { color: #93A1A1 } /* Name.Property */
 .highlight .nt { color: #268BD2 } /* Name.Tag */
 .highlight .nv { color: #268BD2 } /* Name.Variable */
