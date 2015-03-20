@@ -170,16 +170,19 @@ header {
     }
   }
 
-
   nav {
 
-    h6 {
+    h5 {
       text-align: left;
       margin-top: $spacing-m;
       margin-bottom: $spacing-s;
-      color: lighten($text-color, 50%);
+      color: #999;
       padding-bottom: $spacing-xs;
       border-bottom: 1px solid $border-color;
+      font-size: 90%;
+      font-weight: normal;
+      text-transform: none;
+      letter-spacing: 0;
     }
     ul li {
       list-style-type: none;
