@@ -1,8 +1,9 @@
 .single-wrap {
   width: 100%;
-  max-width: 740px;
+  max-width: 760px;
   margin: $spacing-s auto;
   font-family: $variant-family;
+  font-size: 88%;
   background: white;
   z-index: 1;
 
@@ -61,7 +62,7 @@
     margin: 0 0 $spacing-m;
   }
 
-  ul, 
+  ul,
   ol {
     margin: $spacing-m 0;
     li {
@@ -119,21 +120,21 @@
   }
 }
 
-#prev { 
-  left: 40px; 
+#prev {
+  left: 40px;
   @media (max-width: 942px) {
-    float: left; 
+    float: left;
   }
 }
 
-#next { 
-  right: 40px; 
+#next {
+  right: 40px;
   @media (max-width: 942px) {
-    float: right; 
+    float: right;
   }
 }
 
-#prev:active, 
+#prev:active,
 #next:active {
   border-color: $main-color;
 }
@@ -141,7 +142,7 @@
 .nav-title {
   display: none;
   @media (max-width: 942px) {
-    display: inline; 
+    display: inline;
   }
 }
 
