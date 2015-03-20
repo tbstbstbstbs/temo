@@ -21,7 +21,7 @@
         color: white;
         /*padding-left: $spacing-sm + $spacing-s;*/
         time {
-          color: lighten($main-color, 40%);
+          color: lighten($main-color, 35%);
         }
         div .excerpt {
           color: lighten($main-color, 55%);
@@ -45,7 +45,7 @@
     } // end .p-wrap
 
     time {
-      color: lighten($main-color, 30%);
+      color: lighten($main-color, 45%);
       font-size: 150%;
       font-weight: lighter;
       padding-right: $spacing-s;
@@ -75,7 +75,7 @@
       font-size: 85%;
       max-width: 680px;
       margin-top: $spacing-xs;
-      color: darken($main-color, 25%);
+      color: lighten($main-color, 20%);
     }
 
     div .excerpt img {
