@@ -46,7 +46,7 @@
 
     time {
       color: lighten($main-color, 45%);
-      font-size: 150%;
+      font-size: 145%;
       font-weight: lighter;
       padding-right: $spacing-s;
       display: block;
@@ -67,13 +67,13 @@
     }
 
     div .h-wrap h1 {
-      font-size: 140%;
+      font-size: 135%;
       margin: 0;
     }
 
     div .excerpt {
       font-size: 85%;
-      max-width: 680px;
+      max-width: 670px;
       margin-top: $spacing-xs;
       color: lighten($main-color, 20%);
     }
