@@ -10,21 +10,20 @@
     }
 
     .p-wrap {
-      padding: $spacing-m*0.85 $spacing-m $spacing-m*1.25 $spacing-m;
+      padding: $spacing-sm*0.8 $spacing-m $spacing-m*0.9 $spacing-m;
       background: white;
       transition: all .15s ease-in;
       &:active {
         background: darken($main-color, 3%);
       }
       &:hover {
-        background: lighten($main-color, 3%);
-        color: white;
+        background: #f2f3f3;
         /*padding-left: $spacing-sm + $spacing-s;*/
         time {
-          color: lighten($main-color, 35%);
+          color: #a6abb1;
         }
         div .excerpt {
-          color: lighten($main-color, 55%);
+          color: #737a80;
         }
         &::after {
           /*content:'\2192';*/
@@ -36,7 +35,7 @@
         }
       }
       @media (max-width: 942px) {
-        padding: $spacing-sm*0.85 $spacing-m $spacing-m*1.25 $spacing-m;
+        padding: $spacing-sm*0.8 $spacing-m $spacing-m*0.9 $spacing-m;
       }
       p {
         display: inline;
@@ -45,7 +44,7 @@
     } // end .p-wrap
 
     time {
-      color: lighten($main-color, 45%);
+      color: #90979e;
       font-size: 145%;
       font-weight: lighter;
       padding-right: $spacing-s;
@@ -56,7 +55,7 @@
     }
 
     a {
-      color: darken($main-color, 30%);
+      color: #1d1f21;
       text-decoration: none;
     }
 
@@ -67,15 +66,17 @@
     }
 
     div .h-wrap h1 {
-      font-size: 135%;
+      font-size: 160%;
+      font-weight: 300;
       margin: 0;
+      margin-top: -2px;
     }
 
     div .excerpt {
-      font-size: 85%;
-      max-width: 670px;
+      font-size: 82%;
+      max-width: 650px;
       margin-top: $spacing-xs;
-      color: lighten($main-color, 20%);
+      color: #595f65;
     }
 
     div .excerpt img {

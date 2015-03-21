@@ -2,12 +2,12 @@
 // https://gist.github.com/edwardhotchkiss/2005058
 
 .highlight {
-  border: 1px solid #e0e0e0;
-  border-radius: 3px;
-  background-color: #1d1f21;
+  border: 1px solid #e4e5ea;
+  border-radius: 2px;
+  background-color: #fefefe; //#f6f7f7; //#1d1f21;
   margin: $spacing-m auto;
   overflow: auto;
-  color: lighten($text-color, 65%);
+  color: lighten($text-color, 30%);
 }
 
 .highlight pre {
@@ -18,18 +18,18 @@ code {
   font-family: 'Courier New', monospace;
   font-weight: bold;
   font-size: 0.9em;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 .highlight .c { color: #586E75 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
-.highlight .k { color: #859900 } /* Keyword */
-.highlight .l { color: #93A1A1 } /* Literal */
-.highlight .n { color: #93A1A1 } /* Name */
+.highlight .k { color: #558900 } /* Keyword */
+.highlight .l { color: #777777 } /* Literal #93A1A1*/
+.highlight .n { color: #777777 } /* Name #93A1A1*/
 .highlight .o { color: #859900 } /* Operator */
 .highlight .x { color: #CB4B16 } /* Other */
-.highlight .p { color: #93A1A1 } /* Punctuation */
+.highlight .p { color: #777777 } /* Punctuation #93A1A1*/
 .highlight .cm { color: #586E75 } /* Comment.Multiline */
 .highlight .cp { color: #859900 } /* Comment.Preproc */
 .highlight .c1 { color: #586E75 } /* Comment.Single */
@@ -54,7 +54,7 @@ code {
 .highlight .m { color: #2AA198 } /* Literal.Number */
 .highlight .s { color: #2AA198 } /* Literal.String */
 .highlight .na { color: #93A1A1 } /* Name.Attribute */
-.highlight .nb { color: #B58900 } /* Name.Builtin */
+.highlight .nb { color: #b55950 } /* Name.Builtin */
 .highlight .nc { color: #268BD2 } /* Name.Class */
 .highlight .no { color: #CB4B16 } /* Name.Constant */
 .highlight .nd { color: #268BD2 } /* Name.Decorator */
@@ -63,7 +63,7 @@ code {
 .highlight .nf { color: #268BD2 } /* Name.Function */
 .highlight .nl { color: #93A1A1 } /* Name.Label */
 .highlight .nn { color: #93A1A1 } /* Name.Namespace */
-.highlight .nx { color: #DFDFDF } /* Name.Other, modified for dark background */
+.highlight .nx { color: #666666 } /* Name.Other, modified for dark background */
 .highlight .py { color: #93A1A1 } /* Name.Property */
 .highlight .nt { color: #268BD2 } /* Name.Tag */
 .highlight .nv { color: #268BD2 } /* Name.Variable */
